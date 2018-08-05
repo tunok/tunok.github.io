@@ -1,13 +1,51 @@
-
-
-
 body {
   margin: 0;
   padding: 0;
-  background: url('../img/wallhaven.jpg') no-repeat grey;
+  background: url('../img/bkg-image.jpg') no-repeat grey;
   background-position: top center;
   background-attachment: fixed;
+  background-size: 100% 100%;
 }
-p {
-  color: white;
+.divContentSize {
+	width: 250px;
+	height: 250px;
+	margin: 40px;
+	border-radius: 15px;
+	border-style: outset;
+}
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+.myWork {
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+.about {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+.logo-htmlCss {
+	background: url('../img/logo-htmlCss.jpg') no-repeat lightgrey;
+	background-size: contain;
+	background-position: center;
+}
+.logo-js {
+	background: url('../img/logo-js.png') no-repeat lightgrey;
+	background-size: contain;
+	background-position: center;
+}
+.logo-paper {
+	background: url('../img/logo-paper.png') no-repeat lightgrey;
+	background-size: contain;
+	background-position: center;
+}
+.logo-toDo {
+	background: url('../img/logo-toDo.png') no-repeat lightgrey;
+	background-size: contain;
+	background-position: center;
 }
