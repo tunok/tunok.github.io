@@ -1,15 +1,21 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+
 body {
   margin: 0;
   padding: 0;
   background: url('../img/bkg-image.jpg') no-repeat grey;
-  background-position: top center;
   background-attachment: fixed;
-  background-size: 100% 100%;
+  background-position: bottom left;
+}
+.title {
+	text-align: center;
+	margin: 20px auto;
+	font-family: 'Dosis', sans-serif;
 }
 .divContentSize {
 	width: 250px;
 	height: 250px;
-	margin: 40px;
+	margin: 20px 50px;
 	border-radius: 15px;
 	border-style: outset;
 }
@@ -48,4 +54,22 @@ body {
 	background: url('../img/logo-toDo.png') no-repeat lightgrey;
 	background-size: contain;
 	background-position: center;
+}
+.fas {
+	margin: 0 auto;
+	color: orange;
+	font-size: 8rem;
+}
+@media only screen and (min-device-width : 320px) and (max-device-width : 671px) { 
+.divContentSize {
+	width: 150px;
+	height: 150px;
+	margin: 30px auto;
+	}
+.myWork, .about  {
+		display: block;	
+	}
+.myWork div:last-child {
+		margin-bottom: 0;
+	}
 }
