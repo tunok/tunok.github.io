@@ -29,7 +29,4 @@
     for (let i = 0; i < listArr.length; i++) {
         createChoiceOption(i);
     }
-    inputTag.addEventListener('focus', function () {
-        datalistTag.style = 'display: inherit';
-    })
 }) ();
